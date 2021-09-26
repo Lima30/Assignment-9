@@ -17,7 +17,7 @@ const People = () => {
     }, [])
 
     const handleAddToCart = (people) => {
-        // console.log(people.name);
+
         const newCart = [...cart, people];
         setCart(newCart);
     }
