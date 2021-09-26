@@ -2,7 +2,7 @@ import React from 'react';
 import './Cart.css'
 
 const Cart = (props) => {
-    console.log(props.cart);
+    // console.log(props.cart);
     const { cart } = props;
     let total = 0;
     for (const people of cart) {
@@ -12,11 +12,15 @@ const Cart = (props) => {
 
 
 
+
     return (
         <div>
 
             <h3>People Added:{props.cart.length} </h3>
             <h4>Total Cost:${total} </h4>
+            <br />
+
+
         </div>
     );
 };

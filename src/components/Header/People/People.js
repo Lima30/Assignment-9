@@ -28,7 +28,7 @@ const People = () => {
 
                 {
                     people.map(people => <Information
-
+                        key={people.email}
                         people={people}
                         handleAddToCart={handleAddToCart}
                     >
