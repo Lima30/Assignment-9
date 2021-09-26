@@ -4,7 +4,7 @@ import './Cart.css'
 const Cart = (props) => {
     console.log(props.cart);
     const { cart } = props;
-    let total = 1;
+    let total = 0;
     for (const people of cart) {
         total = total + people.balance;
     }
