@@ -17,7 +17,7 @@ const Information = (props) => {
             <h4>Gender: {gender} </h4>
             <h4>Age: {age} </h4>
             <h4>Founder: {company}</h4>
-            <h4>Salary: {balance} </h4>
+            <h4>Salary:${balance} </h4>
             <button
                 onClick={() => props.handleAddToCart(props.people)}
                 className="button">{element} Add to Cart</button>

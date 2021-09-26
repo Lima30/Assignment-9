@@ -14,9 +14,9 @@ const Cart = (props) => {
 
     return (
         <div>
-            <h4>summary</h4>
+
             <h3>People Added:{props.cart.length} </h3>
-            <h4>Total Cost:{total} </h4>
+            <h4>Total Cost:${total} </h4>
         </div>
     );
 };
