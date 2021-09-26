@@ -1,0 +1,17 @@
+.detail-info{
+    background-color: lightblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    height: 500px;
+    
+}
+.button{
+    background-color: rgb(243, 191, 61);
+    width: 300 px;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
