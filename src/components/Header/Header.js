@@ -1,13 +1,24 @@
 import React from 'react';
-import './Header.css';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <div className="header">
-            <h2>Make a Team with Rich Persons</h2>
-            <h5>The rich person are working hard to become rich and make the world better</h5>
-            <h2>Total Budget: 115 Million</h2>
-        </div>
+
+        <nav className="header bg-info text-center">
+            <h2>Lima's Language Learning Center</h2>
+            <Link className="text-black font-weight-bold" to="/Home">Home</Link>
+            <br />
+
+            <Link className="text-black" to="/About">About</Link>
+            <br />
+
+            <Link className="text-black" to="/Services">Services</Link>
+            <br />
+
+            <Link className="text-black" to="/Contact">Contact</Link>
+
+        </nav>
+
     );
 };
 

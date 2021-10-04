@@ -1,16 +1,19 @@
 import React, { useEffect, useState } from 'react';
-import Information from '../../Information/Information';
+import Information from '../Information/Information';
 
-const People = () => {
+
+const People2 = () => {
     const [people, setPeople] = useState([])
 
 
+
     useEffect(() => {
-        fetch('./people.JSON')
+        fetch('./people2.JSON')
             .then(res => res.json())
             .then(data => setPeople(data));
 
     }, [])
+
 
 
     return (
@@ -31,4 +34,4 @@ const People = () => {
     );
 };
 
-export default People;
+export default People2;

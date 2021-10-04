@@ -52,5 +52,32 @@
         "balance": 9000,
         "email": "jijkmko1134@honotron.com",
         "description": "You can learn Korean fluently by taking this course"
+    },
+    {
+        "picture": "https://process.filepicker.io/APHE465sSbqvbOIStdwTyz/rotate=deg:exif/resize=fit:crop,height:566,width:944/output=quality:80,compress:true,strip:true,format:jpg/cache=expiry:max/https://cdn.filestackcontent.com/FoTvwNRcSrawkixGoxig",
+        "name": "Bengali Courses",
+        "Instructor": "Mahfuz Ahmed",
+        "company": "1 Months Course",
+        "balance": 3000,
+        "email": "jijkmko11345@honotron.com",
+        "description": "You can learn Bengali fluently by taking this course"
+    },
+    {
+        "picture": "https://i2.wp.com/madrasatelquran.com/wp-content/uploads/2019/03/Learn-Arabic-Language-Madrasat-El-Quran.jpg?fit=990%2C600&ssl=1",
+        "name": "Arabic Courses",
+        "Instructor": "Hasan Ahmed",
+        "company": "5 Months Course",
+        "balance": 9000,
+        "email": "jijkmko11346@honotron.com",
+        "description": "You can learn Arabic fluently by taking this course"
+    },
+    {
+        "picture": "https://www.wikihow.com/images/thumb/e/ea/Learn-Latin-Vocabulary-Step-1-Version-2.jpg/v4-460px-Learn-Latin-Vocabulary-Step-1-Version-2.jpg.webp",
+        "name": "Latin Courses",
+        "Instructor": "Ricardo Orlando",
+        "company": "4 Months Course",
+        "balance": 9000,
+        "email": "jijkmko1134655@honotron.com",
+        "description": "You can learn Latin fluently by taking this course"
     }
 ]
